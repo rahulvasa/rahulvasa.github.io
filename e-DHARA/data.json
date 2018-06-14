@@ -1,0 +1,92 @@
+{
+    "version": 1,
+    "allow_edit": true,
+    "plugins": [],
+    "panes": [{
+        "title": "Temperature",
+        "width": 1,
+        "row": {
+            "3": 5
+        },
+        "col": {
+            "3": 3
+        },
+        "col_width": 1,
+        "widgets": [{
+            "type": "text_widget",
+            "settings": {
+                "size": "big",
+                "value": " 34.10",
+                "animate": true,
+                "units": "&deg;C"
+            }
+        }, {
+            "type": "text_widget",
+            "settings": {
+                "size": "small",
+                "value": " 93.39",
+                "animate": true,
+                "units": "&deg;F"
+            }
+        }]
+    }, {
+        "title": "Moisture",
+        "width": 1,
+        "row": {
+            "3": 1
+        },
+        "col": {
+            "3": 2
+        },
+        "col_width": 1,
+        "widgets": [{
+            "type": "gauge",
+            "settings": {
+                "value": "29",
+                "units": "%",
+                "min_value": 0,
+                "max_value": 100
+            }
+        }]
+    }, {
+        "title": "Photo Sensitivity",
+        "width": 1,
+        "row": {
+            "3": 1
+        },
+        "col": {
+            "3": 3
+        },
+        "col_width": 1,
+        "widgets": [{
+            "type": "indicator",
+            "settings": {
+                "value": "1",
+                "on_text": "Solar",
+                "off_text": "Power"
+            }
+        }]
+    }, {
+        "title": "Humidity",
+        "width": 1,
+        "row": {
+            "3": 1
+        },
+        "col": {
+            "3": 1
+        },
+        "col_width": 1,
+        "widgets": [{
+            "type": "gauge",
+            "settings": {
+                "title": "",
+                "value": " 66.00",
+                "units": "%",
+                "min_value": 0,
+                "max_value": 100
+            }
+        }]
+    }],
+    "datasources": [],
+    "columns": 3
+}
